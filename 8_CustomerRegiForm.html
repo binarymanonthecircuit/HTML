@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Form Test</title>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <article>
+        <section id="workspace">
+
+            <form action="./form_action_page" method="post">
+                <fieldset>
+                    <legend>Customer Registration.</legend>
+                        <p>
+                            <label>title.</label><br>
+                            <label>
+                            <input type='radio' name='title' value='mr'>mr.
+                            </label>
+    
+                            <label>
+                            <input type='radio' name='title' value='mrs'>mrs.
+                            </label>
+    
+                            <label>
+                            <input type='radio' name='title' value='miss'>miss.
+                            </label>
+                        </p>            
+
+                        <p>
+                            <label>first name</label><br>
+                            <input type='text' name='firstName' placeholder="your first name" required>
+                        </p>
+                        <p>
+                            <label>last name</label><br>
+                            <input type='text' name='lastName' placeholder="your last name" required>
+                        </p>
+                        <p>
+                            <label>email</label><br>
+                            <input type='email' name='email' placeholder="your email address" required>
+                        </p>
+                        <p>
+                            <label>telephone</label><br>
+                            <input type='tel' name='tel' placeholder="your telephone number">
+                        </p>
+                        <p>
+                            <label>password</label><br>
+                            <input type='password' name='password' placeholder="your password" required>
+                            </p> 
+                        <p>
+                            <label>password confirm</label><br>
+                            <input type='password' name='passwordConfirm' placeholder="your password again" required>
+                        </p>  
+
+                        <p>
+                            <label>nationality</label><br>
+                            <select>
+                                <option>America</option>
+                                <option>England</option>
+                                <option>France</option>
+                                <option>Spain</option>
+                                <option>Italy</option>
+                                <option>Korea, South</option>
+                                <option>Korea, North</option>
+                                <option>Japan</option>
+                                <option>Malaysia</option>
+                                <option>Taiwan</option>
+                            </select>
+                        </p>
+                        
+                        <p>
+                            <label>
+                                <input type='checkbox' name='terms' value='agree' required>
+                                I agree to the <a href='./terms.html'>terms and conditions</a>
+                            </label>
+                        </p>
+                       
+                        <p>
+                            <button type='submit'>Sign up</button>
+                            <button type='reset'>Reset</button>
+                        </p>                        
+                </fieldset>
+            </form>
+
+        </section>
+    </article>
+    <aside></aside>
+    <footer></footer>
+    <script>
+        // JavaScript comes here.
+    </script>
+</body>
+</html>
