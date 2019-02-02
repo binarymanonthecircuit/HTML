@@ -14,6 +14,11 @@
 12. 6_formTextArea.html
 13. 7_formSelect.html
 14. 8_CustomerRegiForm.html
+15. table.html
+16. favicon_test.html
+
+# Image Files
+1.  thatday-512.png (favicon)
 
 # Note
 1.  HTML_Summary_Note.odt
