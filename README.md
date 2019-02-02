@@ -5,6 +5,7 @@
 3. paragraphDecoratingTags.html
 4. elementStyle.html
 5. embeddingTags.html
+6. html_list_tags.html
 
 
 # Resources
